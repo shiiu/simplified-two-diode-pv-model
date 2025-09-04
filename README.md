@@ -4,8 +4,7 @@ Implementation of the IEEE simplified two-diode photovoltaic (PV) module model i
 
 This repository contains MATLAB implementations of the **novel simplified two-diode photovoltaic (PV) module model** proposed by:
 
-> B. Chitti Babu and Suresh Gurjar,  
-> *"A Novel Simplified Two-Diode Model of Photovoltaic (PV) Module"*  
+> B. Chitti Babu and Suresh Gurjar, *"A Novel Simplified Two-Diode Model of Photovoltaic (PV) Module"*  
 > IEEE Journal of Photovoltaics, Vol. 4, No. 4, July 2014.  
 
 The model eliminates series and shunt resistances, reducing computational complexity while still accurately reproducing **I–V characteristics** of PV modules using only datasheet parameters.

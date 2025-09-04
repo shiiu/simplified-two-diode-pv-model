@@ -62,6 +62,26 @@ I_{02} \approx \left(\frac{T}{298}\right)^{3.77} \cdot I_{01}
 
 ---
 
+## Repo Structure
+
+Simplified-Two-Diode-PV-Model/
+│
+├── SimplifiedModel/
+│   ├── iv_temp_variation.m              # I–V vs temperature (STC irradiance)
+│   ├── iv_irradiance_variation.m        # I–V vs irradiance (Renosola JC260S)
+│   ├── iv_irradiance_variation_alt.m    # I–V vs irradiance (alternative dataset)
+│   ├── iv_temp_variation_alt.m          # I–V vs temperature (alternative dataset)
+│
+├── FullTwoDiodeModel/                   # (Not in IEEE paper, but useful reference)
+│   ├── iv_full_two_diode_with_resistances.m
+│   ├── iv_full_two_diode_with_resistances_alt.m
+│
+├── estimate_A1A2.m                      # (optional) iterative algorithm to extract A1, A2
+│
+└── README.md
+
+---
+
 ## Example Outputs
 
 I–V curves vs irradiance
